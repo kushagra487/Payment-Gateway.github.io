@@ -19,7 +19,7 @@ html {
 }
 .logo a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     transition: .3s;
 }
 .logo a h1{
@@ -40,7 +40,7 @@ html {
 }
 .menu ul li a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     margin-left: 30px;
     font-size: 15px;
     transition: 0.5s;
@@ -61,7 +61,7 @@ html {
     font-weight: 500;
 }  
 #donate:hover {
-    background-color: black;
+    background-color: #000000;
 }
 .menuicon{
     margin: auto;
@@ -76,7 +76,7 @@ html {
 
 @media only screen and (max-width : 960px){
     .nevbar{
-        background-color: black;
+        background-color: #000000;
     }
     .logo a h1{
         margin: 15px 12px;
@@ -85,7 +85,7 @@ html {
         text-align: right;
         margin-right: 0px;
         position:absolute;
-        background-color: black;
+        background-color: #000000;
         width: 100%;
         top: 49px;
         max-height: 0px;
@@ -100,7 +100,7 @@ html {
     }
     .menu ul li a{
         text-decoration: none;
-        color: white;
+        color: #ffffff;
         margin-left: 0px;
         font-size: 15px;
         transition: 0.5s;
@@ -121,7 +121,7 @@ html {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url('https://source.unsplash.com/1600x900/?donate,poor,donation');
     z-index: -200; 
-    color: white;
+    color: #ffffff;
 }
 .cover .information {
     align-items: center;
@@ -162,15 +162,15 @@ html {
     background-size: 200%;
     background-position: left;
     transition: .3s;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     margin: 80px 0px;
     width: 100%;
     font-weight: bold;
 }
 .information a button:hover {
     background-position: right;
-    color: white;
+    color: #ffffff;
 }
 
 @media only screen and (max-width : 960px ){
@@ -179,7 +179,7 @@ html {
         height: auto;
         background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url('https://source.unsplash.com/1600x900/?donate,poor,donation');
         z-index: -200; 
-        color: white;
+        color: #ffffff;
     }
     .cover .information {
         align-items: center;
@@ -227,7 +227,7 @@ html {
     left: 30%;
     font-weight: 400;
     transform: translate((-50%,-50%));
-    color: white;
+    color: #ffffff;
     padding-top: 30px;
     border-radius: 5px;
     overflow: hidden;
@@ -262,6 +262,9 @@ html {
     }
     .container {
         height: 45vh;
+        width: 60%;
+        left: 20%;
+        padding-top: 0px;
         overflow-y: scroll;
     }
  }
@@ -306,7 +309,7 @@ input[type=text], select, textarea {
 }
 input[type=submit] {   
     background-color: #03a9f4;
-    color: white;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -331,13 +334,19 @@ input[type=submit]:hover {
 /**************  Footer  ***************/
 
 footer{
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
     padding: 10px;
     text-align: center;
     font-weight: 500;
 }
 footer a{
-    color: black;
+    color: #03a9f4;
     text-decoration: none;
+}
+
+@media only screen and (max-width : 450px) {
+    footer{
+        font-size: x-small;
+    }
 }
