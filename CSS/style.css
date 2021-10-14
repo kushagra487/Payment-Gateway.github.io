@@ -323,6 +323,9 @@ input[type=submit]:hover {
     .form-container {
         min-height: 70vh;
     }
+    .container-el {
+        width: 100%;  
+    }
 }
 
 /**************  Footer  ***************/
