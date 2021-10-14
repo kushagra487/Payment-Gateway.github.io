@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./CSS/style.css">
+
+        <title>The Sparks Donation</title>
+    </head>
+    <body>
+            <header>
+                <div class="nevbar" id="nevbar">
+                    <div class="logo">
+                        <a href="index.html" id="logo"><h1><span>SPARKS</span> DONATION</h1></a>
+                    </div>
+                    <div class="menu" id="menu">
+                        <ul>
+                            <li><a id="home" href="index.html">Home</a></li>
+                            <li><a id="about" href="#aboutOrg">About Us</a></li>
+                            <li><a href="#contact-us">Contact</a></li>
+                            <li><a id="donate" href="https://rzp.io/l/dtcm3D48k" target="_blank">Donate</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuicon">
+                        <i id="menuicon" onclick="togglemenu()" class="fas fa-chevron-circle-down"> <span>MENU</span></i>
+                    </div>
+                </div>
+            
+                <div class="cover">
+                    <div class="information">
+                        <h3>Raising Hope</h3>
+                        <h2>To help brighten someone's</h2>
+                        <h1> <span>FUTURE</span> </h1>
+                        <a href="https://rzp.io/l/dtcm3D48k" target="blank"><button>DONATE</button></a>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="about" id="aboutOrg">
+                    <center>
+                        <div class="container">
+                            <div class="about-detail">
+                                <h1>About Us</h1>
+                                <p>We raise funds online for medical emergencies and social causes.</p>
+                            <p>Crowdfunding can be a quick and easy way to meet unanticipated, pressing needs. Today, anyone with a smartphone can participate in making a difference with great ease. More and more people are now raising funds online to tackle emergencies more efficiently.</p> 
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="form-container" id="contact-us">
+                    <div class="container-el">
+                        <h1 class="heading-el" h1>Contact Us</h1>
+                        <form action="#">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="message">Message Us</label>
+                            <textarea id="message" name="subject" placeholder="Write something.."></textarea>
+                            <center>
+                                <button class="btn s-btn">Submit</button>
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+        <footer>
+            &copy;The Sparks Foundation Donate | Developed by <a href="https://www.linkedin.com/in/kushagra487/" target="_blank"><strong>Kushagra</strong></a>
+        </footer>
+
+        <script>
+            var menu = document.getElementById("menu");
+            menu.style.maxHeight = "0px";
+            function togglemenu() {
+                if (menu.style.maxHeight == "0px") {
+                        menu.style.maxHeight = "390px";
+                }
+                else {
+                    menu.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
