@@ -282,6 +282,14 @@ html {
     align-items: center;
     padding: 100px;
 }
+.container-el {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: linear-gradient(rgba(51, 51, 51, 0.9), rgba(92, 213, 230, 0.1)), #686868;
+    padding: 10px;
+    margin:0 auto;
+    width: 40%;  
+}
 .heading-el {
     text-align: center;
     color: #03a9f4;
@@ -310,25 +318,10 @@ input[type=submit]:hover {
 .s-btn:hover {
     background-color: #092f3f;
 } 
-.container-el {
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    background: linear-gradient(rgba(51, 51, 51, 0.9), rgba(92, 213, 230, 0.1)), #686868;
-    padding: 10px;
-    margin:0 auto;
-    width: 40%;  
-}
 
 @media only screen and (max-width : 960px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-@media only screen and (max-width : 960px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
+    .form-container {
+        min-height: 70vh;
     }
 }
 
