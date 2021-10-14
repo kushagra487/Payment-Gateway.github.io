@@ -256,11 +256,6 @@ html {
 
 /**************  Contact Us  ***************/
 
-.heading-el {
-    text-align: center;
-    color: #03a9f4;
-    padding: 20px 20px;   
-}
 .form-container {
     position: relative;
     /* width: 100%; */
@@ -274,6 +269,11 @@ html {
     justify-content: flex-start;
     align-items: center;
     padding: 100px;
+}
+.heading-el {
+    text-align: center;
+    color: #03a9f4;
+    padding: 20px 20px;   
 }
 input[type=text], select, textarea {
     width: 100%; 
